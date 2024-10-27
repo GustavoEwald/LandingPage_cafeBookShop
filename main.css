@@ -1,0 +1,94 @@
+.cabeca{
+    position: sticky;
+    top: 0;
+}
+
+.bg-coffee-bean-dark{
+    background-color: #311105;
+}
+
+.bg-coffee-bean-light{
+    background-color: #311105c0;
+}
+
+.bg-antiquewhite{
+    background-color: antiquewhite;
+}
+
+.text-antiquewhite{
+    color: antiquewhite;
+}
+
+.text-coffee-bean{
+    color: #311105;
+}
+
+.container{
+    padding: 0;
+}
+
+#menu .nav-pills .nav-link.active{
+    background-color: antiquewhite;
+    color: #311105;
+    font-weight: bold;
+}
+
+#menu .nav-pills .nav-link{
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.submenu .nav-pills .nav-link.active{
+    background-color: #311105c0;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.submenu .nav-pills .nav-link{
+    background-color: antiquewhite;
+    color: #311105c0;
+    font-weight: bold;
+}
+
+#menu-btns .nav-link .active{
+    background-color: #311105;
+    color: antiquewhite;
+}
+
+#contato input, #contato textarea{
+    border: 2px solid #311105;
+    background-color: transparent;
+}
+
+#contato button{
+    border: 2px solid #311105;
+}
+
+#contato button:hover{
+    background-color: #311105;
+    color: antiquewhite;
+}
+
+#contato .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-youtube:hover{
+    transform: scale(1.5);
+    transition: all 1s;
+}
+
+#contato .fa-facebook:hover{
+    color: #3b5998;
+}
+#contato .fa-twitter:hover{
+    color: #008AD8
+}
+#contato .fa-instagram:hover{
+    background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+}
+#contato .fa-youtube:hover{
+    color: #FF0000;
+}
+
+section{
+    background-image: url(./old-texture-background-light-brown-600nw-2347602089.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
